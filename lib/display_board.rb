@@ -3,12 +3,6 @@
 
 board = ["  ","  ","  ","  "," X ","  ","  ","  ","  "]
 
-row1 = board[0]
-
-row2 = board[1]
-
-row3 = board[3]
-
 def display_board(board)
   return puts " #{board[0]} | #{board[1]} | #{board[2]} "
   puts "-----------"
